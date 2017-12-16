@@ -62,4 +62,11 @@ public class TestCalculate {
         calculator.calculate("-1,-2");
     }
 
+
+    @Test
+    public void givenNumbersHigherThan1000ExpectedToIgnoreThem() throws NegativeNumberException
+
+    {
+        assertEquals(222, calculator.calculate("1,10,100,1000,1000,1,10,100"));
+    }
 }

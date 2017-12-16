@@ -30,9 +30,14 @@ public class Calculator {
         int result = 0;
         for (String number : split) {
             checkIfIsNegative(number);
+            if (IsNumberHigherEqual1000(number)) continue;
             result += Integer.parseInt(number);
         }
         return result;
+    }
+
+    private boolean IsNumberHigherEqual1000(String number) {
+        return Integer.parseInt(number) >= 1000;
     }
 
     private String[] getStringsDelimitedBy(String delimiter, String number) {
