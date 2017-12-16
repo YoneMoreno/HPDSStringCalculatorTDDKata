@@ -1,5 +1,13 @@
 import org.junit.Test;
 
-@Test
+
 public class TestCalculate {
+
+    @Test
+    public void emptyStringReturnsZero() {
+        Calculator calculator = new Calculator();
+
+
+    }
+
 }
