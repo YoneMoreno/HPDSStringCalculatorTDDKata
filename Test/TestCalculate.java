@@ -13,4 +13,11 @@ public class TestCalculate {
         assertEquals(0, calculator.calculate(""));
     }
 
+    @Test
+    public void givenSingleNumberExpectedReturnsTheSameNumber() {
+        Calculator calculator = new Calculator();
+
+        assertEquals(27, calculator.calculate("27"));
+    }
+
 }
