@@ -52,5 +52,14 @@ public class TestCalculate {
 
     {
         calculator.calculate("-1");
+
     }
+
+    @Test(expected = NegativeNumberException.class)
+    public void givenTwoNegativeNumberThrowsException() throws NegativeNumberException
+
+    {
+        calculator.calculate("-1,-2");
+    }
+
 }

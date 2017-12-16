@@ -12,15 +12,24 @@ public class Calculator {
             String[] split = getStringsDelimitedBy("\n", number);
             return getAnIntSummingTwoNumbers(split);
         }
-        if (Integer.parseInt(number) < 0) {
-            throw new NegativeNumberException();
-        }
+        checkIfIsNegative(number);
         return parseInt(number);
     }
 
-    private int getAnIntSummingTwoNumbers(String[] split) {
+    private void checkIfIsNegative(String number) throws NegativeNumberException {
+        if (IsNegative(number)) {
+            throw new NegativeNumberException();
+        }
+    }
+
+    private boolean IsNegative(String number) {
+        return Integer.parseInt(number) < 0;
+    }
+
+    private int getAnIntSummingTwoNumbers(String[] split) throws NegativeNumberException {
         int result = 0;
         for (String number : split) {
+            checkIfIsNegative(number);
             result += Integer.parseInt(number);
         }
         return result;
