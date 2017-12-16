@@ -1,4 +1,4 @@
-import org.junit.Assert;
+    import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -33,4 +33,9 @@ public class TestCalculate {
         assertEquals(150, calculator.calculate("100,50"));
     }
 
+    @Test
+    public void givenTwoNumbersDelimitedByNewlineExpectedTheSum() {
+
+        assertEquals(12, calculator.calculate("4\n8"));
+    }
 }

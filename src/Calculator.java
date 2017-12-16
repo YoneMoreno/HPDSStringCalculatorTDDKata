@@ -7,6 +7,10 @@ public class Calculator {
             String[] split = getStringsDelimitedByComma(number);
             return getAnIntSummingTwoNumbers(split);
         }
+        if(number.contains("\n")){
+            String[] split = number.split("\n");
+            return getAnIntSummingTwoNumbers(split);
+        }
         return parseInt(number);
     }
 
