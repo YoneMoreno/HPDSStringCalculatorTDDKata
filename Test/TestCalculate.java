@@ -1,4 +1,4 @@
-    import org.junit.Assert;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -44,5 +44,6 @@ public class TestCalculate {
     public void threeNumbersDelimitedEitherWayExpectedTheSum() {
 
         assertEquals(6, calculator.calculate("1,2,3"));
+        assertEquals(6, calculator.calculate("1\n2\n3"));
     }
 }
