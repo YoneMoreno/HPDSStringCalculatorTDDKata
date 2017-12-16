@@ -26,4 +26,11 @@ public class TestCalculate {
         assertEquals(27, calculator.calculate("27"));
     }
 
+
+    @Test
+    public void givenTwoNumberDelimitedByCommaExpectedTheSum() {
+
+        assertEquals(150, calculator.calculate("100,50"));
+    }
+
 }
