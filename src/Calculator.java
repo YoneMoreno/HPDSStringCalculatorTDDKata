@@ -1,7 +1,7 @@
 import static java.lang.Integer.*;
 
 public class Calculator {
-    public int calculate(String number) {
+    public int calculate(String number) throws NegativeNumberException {
         if (number.isEmpty()) return 0;
 
         if (number.contains(",")) {
@@ -11,6 +11,9 @@ public class Calculator {
         if (number.contains("\n")) {
             String[] split = getStringsDelimitedBy("\n", number);
             return getAnIntSummingTwoNumbers(split);
+        }
+        if (Integer.parseInt(number) < 0) {
+            throw new NegativeNumberException();
         }
         return parseInt(number);
     }
