@@ -16,7 +16,11 @@ public class Calculator {
     }
 
     private int getAnIntSummingTwoNumbers(String[] split) {
-        return parseInt(split[0]) + parseInt(split[1]);
+        int result = 0;
+        for (String number : split) {
+            result += Integer.parseInt(number);
+        }
+        return result;
     }
 
     private String[] getStringsDelimitedBy(String delimiter, String number) {

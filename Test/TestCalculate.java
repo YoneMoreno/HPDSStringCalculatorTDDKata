@@ -38,4 +38,11 @@ public class TestCalculate {
 
         assertEquals(12, calculator.calculate("4\n8"));
     }
+
+
+    @Test
+    public void threeNumbersDelimitedEitherWayExpectedTheSum() {
+
+        assertEquals(6, calculator.calculate("1,2,3"));
+    }
 }

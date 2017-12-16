@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068300af-5052-4a2a-8874-ac4c4835eba4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/TestCalculate.java" afterPath="$PROJECT_DIR$/Test/TestCalculate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calculator.java" afterPath="$PROJECT_DIR$/src/Calculator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestCalculate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestCalculate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/TestCalculate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,16 +28,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="322">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,6 +199,26 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="TestCalculate.threeNumbersDelimitedEitherWayExpectedTheSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="StringCalculatorTDDKata" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCalculate" />
+      <option name="METHOD_NAME" value="threeNumbersDelimitedEitherWayExpectedTheSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -280,16 +300,18 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestCalculate.emptyStringReturnsZero" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestCalculate" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TestCalculate.givenTwoNumberDelimitedByCommaExpectedTheSum" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCalculate.threeNumbersDelimitedEitherWayExpectedTheSum" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.TestCalculate" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCalculate.givenTwoNumberDelimitedByCommaExpectedTheSum" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCalculate.emptyStringReturnsZero" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCalculate.threeNumbersDelimitedEitherWayExpectedTheSum" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCalculate.givenTwoNumberDelimitedByCommaExpectedTheSum" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCalculate.emptyStringReturnsZero" />
       </list>
     </recent_temporary>
   </component>
@@ -310,21 +332,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCalculate - 2017.12.16 at 14h 00m 45s.xml">
-      <configuration name="TestCalculate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCalculate - 2017.12.16 at 14h 02m 04s.xml">
-      <configuration name="TestCalculate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCalculate - 2017.12.16 at 14h 04m 12s.xml">
-      <configuration name="TestCalculate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCalculate - 2017.12.16 at 14h 05m 32s.xml">
-      <configuration name="TestCalculate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCalculate - 2017.12.16 at 14h 15m 13s.xml">
-      <configuration name="TestCalculate" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCalculate - 2017.12.16 at 14h 19m 18s.xml">
       <configuration name="TestCalculate" configurationId="JUnit" />
     </history-entry>
@@ -334,11 +341,26 @@
     <history-entry file="TestCalculate - 2017.12.16 at 14h 24m 38s.xml">
       <configuration name="TestCalculate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalculate_givenTwoNumberDelimitedByCommaExpectedTheSum - 2017.12.16 at 14h 14m 02s.xml">
-      <configuration name="TestCalculate.givenTwoNumberDelimitedByCommaExpectedTheSum" configurationId="JUnit" />
+    <history-entry file="TestCalculate - 2017.12.16 at 14h 27m 24s.xml">
+      <configuration name="TestCalculate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalculate_givenTwoNumberDelimitedByCommaExpectedTheSum - 2017.12.16 at 14h 15m 04s.xml">
-      <configuration name="TestCalculate.givenTwoNumberDelimitedByCommaExpectedTheSum" configurationId="JUnit" />
+    <history-entry file="TestCalculate - 2017.12.16 at 14h 31m 56s.xml">
+      <configuration name="TestCalculate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalculate - 2017.12.16 at 14h 36m 21s.xml">
+      <configuration name="TestCalculate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalculate_threeNumbersDelimitedEitherWayExpectedTheSum - 2017.12.16 at 14h 30m 28s.xml">
+      <configuration name="TestCalculate.threeNumbersDelimitedEitherWayExpectedTheSum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalculate_threeNumbersDelimitedEitherWayExpectedTheSum - 2017.12.16 at 14h 31m 17s.xml">
+      <configuration name="TestCalculate.threeNumbersDelimitedEitherWayExpectedTheSum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalculate_threeNumbersDelimitedEitherWayExpectedTheSum - 2017.12.16 at 14h 31m 48s.xml">
+      <configuration name="TestCalculate.threeNumbersDelimitedEitherWayExpectedTheSum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalculate_threeNumbersDelimitedEitherWayExpectedTheSum - 2017.12.16 at 14h 36m 14s.xml">
+      <configuration name="TestCalculate.threeNumbersDelimitedEitherWayExpectedTheSum" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -353,10 +375,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3219076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3219076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33681074" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33681074" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1420205" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -382,25 +404,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/Test/TestCalculate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/TestCalculate.java">
+    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
           </folding>
         </state>
       </provider>
